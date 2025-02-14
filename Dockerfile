@@ -1,6 +1,7 @@
 # Use the base RStudio image
 FROM rocker/rstudio:4.4.2
 
+COPY 
 # Install remotes package first
 RUN Rscript -e 'install.packages("remotes")'
 
